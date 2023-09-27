@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-functionality;validate-google-search-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5574143600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "browser is open",
+            "match": {
+              "location": "googleSearchSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 695012000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on google search page",
+            "match": {
+              "location": "googleSearchSteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156278700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the text in search box.",
+            "match": {
+              "location": "googleSearchSteps.user_enters_the_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2215551200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "hits enter",
+            "match": {
+              "location": "googleSearchSteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3955708000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to the search results",
+            "match": {
+              "location": "googleSearchSteps.user_is_navigated_to_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TEST123"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test google search functionality",
+    "description": "",
+    "id": "feature-to-test-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "googleSearch.feature"
+  }
+]
